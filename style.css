@@ -1,14 +1,23 @@
 body {
   background-color:#F7F7F7;
-    color: #3F3F44;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-    margin: 10% 20%;
+  line-height: 1.2; 
+  color: #3F3F44;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  margin: 10% 20%;
+}
+
+hr {
+  width: 70%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 3px;
 }
 
 .body-title {
-  text-align: center;
-  
+  text-align: center;  
 }
+
 .exp-header {
   text-align: center;
   text-transform: uppercase;
@@ -23,3 +32,4 @@ body {
   border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
   background-color: #CCEABB
+}    
